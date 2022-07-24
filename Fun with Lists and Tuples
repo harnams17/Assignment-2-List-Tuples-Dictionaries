@@ -1,0 +1,15 @@
+#Sample List : [(2, 5), (1, 2), (4, 4), (2, 3), (2, 1)]
+
+#Expected Result : [(2, 1), (1, 2), (2, 3), (4, 4), (2, 5)]
+
+
+list1=[(2, 5), (1, 2), (4, 4), (2, 3), (2, 1)]
+
+#unpacking of list:
+a=list1[0] #(2,5)
+b=list1[1] #(1,2)
+c=list1[2] #(4,4)
+d=list1[3] #(2,3)
+e=list1[4] #(2,1)
+list2=[e,b,d,c,a]
+print(list2)
